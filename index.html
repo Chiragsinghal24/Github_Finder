@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub user search app</title>
+
+  <!--google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <!--google font end -->
+
+  <!-- stylesheet and script -->
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <!-- stylesheet and script end -->
+</head>
+<body>
+  <div class="header_div">
+  <div class="heading_menu">
+    <h2 id="heading">devfinder</h2>
+    <div class="themechange">
+    <p id="value">LIGHT</p>
+    <img src="assets/icon-sun.svg" id="mode">
+  </div>
+  </div>
+  <div class="search_bar">
+    <img src="assets/icon-search.svg" class="search_icon">
+    <input type="text" placeholder="Search GitHub username.."class="search_text" id="search_text" />
+    <button class="search_button">Search</button>
+  </div>
+  <div class="container">
+    <div class="heading_Section">
+      <img src="assets/octocat.png" id="octanet">
+      <div class="userprofile">
+      <p id="username">The Octacat</p>
+      <span id="usernameid">@usernameid</span>
+      </div>
+    </div>
+    <div class="description" id="description">
+      <p>This profile has no bio </p>
+    </div>
+    <div class="profile_followers">
+      <div class="repos">
+        <p>Repos</p>
+        <span id="repos_count">8</span>
+      </div>
+      <div class="followers">
+        <p>Followers</p>
+        <span id="followers_count">345</span>
+      </div>
+      <div class="following">
+        <p>Following</p>
+        <span id="following_count">12</span>
+      </div>
+    </div>
+    <div class="location">
+      <div class="location_div">
+        <img src="assets/icon-location.svg" width="13px" height="16px">
+        <span id="location_img">Not available</span>
+      </div>
+
+      <div class="link_div">
+        <img src="assets/icon-website.svg" width="13px" height="16px">
+        <span id="link_img">Not available</span>
+      </div>
+
+      <div class="twitter_div">
+        <img src="assets/icon-twitter.svg" width="16px" height="16px">
+        <span id="twitter_img">Not available</span>
+      </div>
+
+      <div class="company_div">
+        <img src="assets/icon-company.svg" width="13px" height="16px">
+        <span id="company_img">Not available</span>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

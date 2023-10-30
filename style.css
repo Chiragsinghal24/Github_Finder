@@ -1,0 +1,174 @@
+@import url(https://fonts.googleapis.com/css?family=Kumbh+Sans:300,400,700|Roboto+Slab:300,400,700|Space+Mono:300,400,700);
+:root{
+    --Blue: hsl(212, 100%, 50%);
+    --Lightblue: hsl(217, 20%, 51%);
+    --Darkblue: hsl(217, 35%, 45%);
+    --Darkbluedarker: hsl(222, 41%, 20%);
+    --Verydarkblue: hsl(217, 21%, 21%);
+    --Verydarkbluedarker: hsl(220, 40%, 13%);
+    --Verylightblue: hsl(227, 100%, 98%);
+    --White: hsl(0, 0%, 100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins','sans-serif';
+}
+
+body{
+    margin-left:10vh;    
+    margin-right:10vh;    
+    background-color: var(--Verydarkbluedarker); 
+    fon 
+}
+
+.header_div{
+    flex-direction: column;
+    justify-content: center;
+    max-width: 85vh;
+}
+
+.heading_menu{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 5vh;
+    color: var(--White);
+}
+
+.heading_menu h2{
+    max-width: 90vh;
+    margin-right: auto;
+}
+
+#mode{
+    position: absolute;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.search_bar{
+    background-color: var(--Darkbluedarker);
+    height: 10vh;
+    border-radius: 10px;
+    margin-top: 3vh;
+    display: flex;
+}
+
+.search_icon{
+    margin: 3vh;
+}
+
+.search_text{
+    color: var(--Lightblue);
+    font-size: 18px;
+    background-color:var(--Darkbluedarker) ;
+    border: none;
+    overflow-x: hidden;
+    letter-spacing: 2px;
+}
+
+.search_button{
+    background-color: var(--Blue);
+    border-style: none;
+    border-radius: 10px;
+    font-size: 22px;
+    color: white;
+    letter-spacing: 1px;
+    margin: 7px;
+    padding: 7px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.container{
+    background-color: var(--Darkbluedarker);
+    min-height: 68vh;
+    border-radius: 10px;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+}
+
+.heading_Section{
+    display: flex;
+    max-height: 20vh;
+    max-width: 90vh;
+}
+
+#octanet{
+    width: 13vh;
+    height: 13vh;
+    margin: 3vh;
+    border-radius: 10vh;
+}
+
+#username{
+    color:white;
+    font-weight: 800;
+    font-size: 25px;
+    margin-top:2vh;
+}
+
+.profile_followers{
+    background-color: var(--Verydarkbluedarker);
+    height: 20vh;
+    border-radius: 10px;
+    margin: 3vh;
+    display: flex;
+}
+
+.profile_followers p{
+    color:var(--Verylightblue);
+}
+
+.profile_followers span{
+    color: var(--White);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.repos,.followers,.following{
+    padding: 3vh;
+    margin: auto;;
+}
+
+.location{
+    display: flex;
+    flex-direction: column;
+    color: Lightblue;
+    padding: 1.2em;
+    justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+    .location {
+      flex-direction: row; /* Align items horizontally on desktop */
+    }
+}
+
+.description{
+    margin: 3vh;
+    color: var(--Lightblue);
+    letter-spacing: 2px;
+}
+  
+.userprofile{
+    margin-top: 2vh;
+}
+
+.userprofile span{
+    color:var(--Blue);
+}
+  
+
+.themechange{
+    gap:2rem;
+    align-items: center;
+}
+
+.location_div,.link_div,.twitter_div,.company_div{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    word-break: break-all;
+}
